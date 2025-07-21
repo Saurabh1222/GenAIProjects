@@ -1,31 +1,56 @@
-📝 AI-Powered Text Summarizer
-A Python project that uses Google's Gemini API to summarize text using the powerful gemini-1.5-flash model. This project demonstrates how to securely connect to the Gemini API, send a prompt, and format the model's response for a clean, readable output.
+# 📝 AI-Powered Text Summarizer
 
-✨ Features
-Generative AI: Leverages the gemini-1.5-flash model for fast and efficient text summarization.
+A Python project that uses Google's **Gemini API** to summarize text using the powerful `gemini-1.5-flash` model.  
+This project demonstrates how to securely connect to the Gemini API, send a prompt, and format the model's response for a clean, readable output.
 
-Secure API Key Management: Safely handles API keys using Google Colab's built-in Secrets Manager.
+---
 
-Clean Output Formatting: Includes a custom helper function to format the raw model output into clean, human-readable Markdown.
+## ✨ Features
 
-Step-by-Step Reasoning: Prompts the model to provide a clear, reasoned, and step-by-step breakdown of its process.
+- **Generative AI**: Leverages the `gemini-1.5-flash` model for fast and efficient text summarization.  
+- **Secure API Key Management**: Uses Google Colab's built-in Secrets Manager to keep your API keys safe.  
+- **Clean Output Formatting**: Includes a helper function to turn raw model output into clean Markdown.  
+- **Step-by-Step Reasoning**: Prompts the model to provide clear reasoning in a structured format.  
 
-🚀 Getting Started
-This project is designed to be run in a Google Colab notebook, which provides a free and pre-configured environment.
+---
 
-Prerequisites
-A Google Account.
+## 🚀 Getting Started
 
-A Gemini API key from Google AI Studio.
+This project is designed for **Google Colab**, which provides a free, pre-configured environment.
 
-Setup
-Get Your API Key: Follow the official guide to get your API key. If you are asked to create a project, follow the prompts in the Google Cloud Console.
+### 🔧 Prerequisites
 
-Get Your API Key Here
+- A Google Account  
+- A Gemini API key from [Google AI Studio](https://makersuite.google.com/app)
 
-Store Your Key Securely: In your Google Colab notebook, click the key icon on the left-hand side. Add a new secret with the name GOOGLE_API_KEY and paste your key in the "Secret value" field.
+---
 
-Clone the Project: You can either download this notebook file (.ipynb) and upload it to Colab, or copy the code directly into a new Colab notebook cell.
+## ⚙️ Setup
 
-🛠️ Usage
-Simply run the code in your Google Colab notebook. The script will automatically install the required libraries, connect to the Gemini API using your key, and execute the summarization task.
+### 1. Get Your API Key
+Follow [this guide](https://ai.google.dev/gemini-api/docs/get-api-key) to create a project and get your API key.
+
+### 2. Store Key Securely in Colab
+- Click the 🔑 icon (Secrets) on the left side of Colab.
+- Add a new secret:
+  - **Name**: `GOOGLE_API_KEY`
+  - **Value**: *your actual API key*
+
+### 3. Run the Project
+- Upload or paste the notebook code into Google Colab.
+- The script will:
+  - Install required libraries
+  - Connect to Gemini API
+  - Summarize the input text
+
+---
+
+## 🛠️ Usage
+
+Just run the code in Colab. It will:
+
+1. Load the Gemini model
+2. Accept your input text
+3. Return a clean and structured summary with reasoning
+
+
