@@ -25,3 +25,17 @@ Each folder contains a self-contained GenAI project with:
 ```bash
 git clone https://github.com/your-username/genai-projects.git
 cd genai-projects
+
+## 🤝 Contribution
+
+Feel free to fork this repository and submit a Pull Request (PR) to:
+- Add new GenAI mini-projects
+- Improve existing code or documentation
+- Fix bugs or issues
+
+## 📬 Contact
+
+If you have questions, feedback, or ideas, feel free to:
+- Open an issue on GitHub
+- Reach out via email or LinkedIn (add your link/email here)
+
