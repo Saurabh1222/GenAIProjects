@@ -36,6 +36,15 @@ Follow [this guide](https://ai.google.dev/gemini-api/docs/get-api-key) to create
   - **Name**: `GOOGLE_API_KEY`
   - **Value**: *your actual API key*
 
+### 3. Run the Project
+- Upload or paste the notebook code into Google Colab.
+- The script will:
+  - Install required libraries
+  - Connect to Gemini API
+  - Summarize the input text
+
+---
+
 ## 📦 Libraries Used
 
 | Library              | Purpose                                               |
@@ -46,14 +55,6 @@ Follow [this guide](https://ai.google.dev/gemini-api/docs/get-api-key) to create
 | `os`                  | For environment or file handling (if needed)         |
 | `google.colab.userdata` | To securely fetch the API key in Colab             |
 
-### 3. Run the Project
-- Upload or paste the notebook code into Google Colab.
-- The script will:
-  - Install required libraries
-  - Connect to Gemini API
-  - Summarize the input text
-
----
 
 ## 🛠️ Usage
 
