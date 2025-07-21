@@ -51,6 +51,6 @@ Just run the code in Colab. It will:
 
 1. Load the Gemini model
 2. Accept your input text
-3. Return a clean and structured summary with reasoning
+3. Return a clean and structured summary.
 
 
