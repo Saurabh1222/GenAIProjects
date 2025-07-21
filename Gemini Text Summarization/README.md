@@ -36,6 +36,16 @@ Follow [this guide](https://ai.google.dev/gemini-api/docs/get-api-key) to create
   - **Name**: `GOOGLE_API_KEY`
   - **Value**: *your actual API key*
 
+## 📦 Libraries Used
+
+| Library              | Purpose                                               |
+|----------------------|-------------------------------------------------------|
+| `google-generativeai` | To access and use Gemini models via API              |
+| `IPython.display`     | To display Markdown output nicely in Colab/notebooks |
+| `textwrap`            | To indent and format the response into blockquotes   |
+| `os`                  | For environment or file handling (if needed)         |
+| `google.colab.userdata` | To securely fetch the API key in Colab             |
+
 ### 3. Run the Project
 - Upload or paste the notebook code into Google Colab.
 - The script will:
