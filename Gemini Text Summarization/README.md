@@ -55,6 +55,7 @@ Follow [this guide](https://ai.google.dev/gemini-api/docs/get-api-key) to create
 | `os`                  | For environment or file handling (if needed)         |
 | `google.colab.userdata` | To securely fetch the API key in Colab             |
 
+---
 
 ## 🛠️ Usage
 
