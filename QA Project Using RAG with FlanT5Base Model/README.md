@@ -28,6 +28,11 @@ This project is a simple **Retrieval-Augmented Generation (RAG)** pipeline that 
 ## 📌 Notes
 
 - This version uses **Flan-T5** (*fast, light, free*) — ideal for basic Q&A tasks.
-- You can later upgrade to more advanced models like **Mistral**,
+- You can later upgrade to more advanced models like **Mistral**, **LLaMA**, or **OpenAI GPT** for better quality responses.
+- ✅ Perfect for:
+  - GenAI Capstone Projects  
+  - Resume-based QA  
+  - Interview Preparation
+
 
 
